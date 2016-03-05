@@ -1,0 +1,102 @@
+body {
+    background-color: #EEE0E5;
+}
+
+.player_one {
+    float: left;
+    padding-left: 24px;
+}
+
+.player_two {
+    float: right;
+    padding-right: 24px;
+}
+
+h1 {
+    font-size: 114px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 31px;
+}
+
+h5 {
+    font-size: 24px;
+    margin-top: 290px;
+    text-align: center;
+}
+
+.heder {
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-bottom: 3px;
+    padding-top: 21px;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+.members {
+    padding-left: 14px;
+    padding-right: 14px;
+    line-height: 160%;
+    font-size: 15px;
+}
+
+.membersTitle {
+    font-family: sans-serif;
+    font-size: 24px;
+    padding-left: 14px;
+    padding-top: 11px;
+}
+
+.mail {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.infot {
+    padding-left: 14px;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-top: 11px;
+}
+
+.info {
+    padding-left: 14px;
+    font-size: 15px;
+    padding-right: 14px;
+    line-height: 125%;
+    color: #010507;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #207269;
+}
+
+.scores {
+    padding-top: 31px;
+}
+
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.sets {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+.statis {
+    font-size: 50px;
+    text-align: center;
+    color: royalblue;
+        
+}
+.list{
+    padding-left: 10px;
+    padding-right: 10px;
+}
