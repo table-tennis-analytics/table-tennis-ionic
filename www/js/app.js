@@ -23,3 +23,29 @@ angular.module('starter', ['ionic', 'Restangular'])
 .config(function (RestangularProvider) {
     RestangularProvider.setBaseUrl('http://table-tennis-api.herokuapp.com/v1');
 });
+.config(function($stateProvider, $urlRouterProvider){
+  $stateProvider
+  .state('home', {
+    url: '/home',
+    templateUrl: "templates/home.html"
+  }
+}
+  });
+  .state('play', {
+    url: '/play'
+    templateUrl: "templates/play.html"
+  }
+  });
+  .state('settings', {
+    url: '/settings',
+    templateUrl: "templates/settings.html"
+    //Pataisyti visus kontrelerius, nes manau, kad netiks
+}
+  });
+  .state('stats'{
+url: 'stats',
+templateUrl: "templates/stats.html"
+}
+  });
+  $urlRouterProvider.otherwise('home.html');
+}
