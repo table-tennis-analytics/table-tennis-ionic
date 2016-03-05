@@ -6,6 +6,10 @@
   },
   "dependencies": {
     "restangular": "^1.5.2",
-    "lodash": "^4.6.1"
+    "lodash": "^4.6.1",
+    "angular-ui-router": "^0.2.18"
+  },
+  "resolutions": {
+    "angular-ui-router": "^0.2.18"
   }
 }
