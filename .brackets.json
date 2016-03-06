@@ -8,6 +8,7 @@
         "jquery.js",
         "C:/Users/Jolanta/pong/platforms/android/assets/www/lib/lodash/vendor/underscore/test/cross-document.js",
         "C:/Users/Jolanta/pong/platforms/android/assets/www/lib/lodash/vendor/underscore/test/functions.js",
-        "C:/Users/Jolanta/pong/platforms/android/assets/www/lib/lodash/vendor/underscore/test/objects.js"
+        "C:/Users/Jolanta/pong/platforms/android/assets/www/lib/lodash/vendor/underscore/test/objects.js",
+        "C:/Users/Jolanta/pong/platforms/android/assets/www/lib/lodash/vendor/underscore/test/utility.js"
     ]
 }
