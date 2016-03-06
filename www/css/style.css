@@ -1,5 +1,6 @@
 body {
     background-color: aliceblue;
+<<<<<<< HEAD
 }
 
 .player_one {
@@ -672,6 +673,8 @@ p {
 [13:43:25] markis: http://pastebin.com/XMkvSqqP
 [13:45:05] markis: body {
     background-color: #EEE0E5;
+=======
+>>>>>>> 97939aeab310141558abb1b8509dae77df37b1c4
 }
 
 .player_one {
@@ -768,7 +771,7 @@ p {
     font-size: 50px;
     text-align: center;
     color: royalblue;
-        
+
 }
 
 .list{
@@ -824,4 +827,12 @@ p {
 
 .avg {
     font-size: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+
+.unclaimed .ion-autocomplete {
+    display: none;
+}
+>>>>>>> 97939aeab310141558abb1b8509dae77df37b1c4
