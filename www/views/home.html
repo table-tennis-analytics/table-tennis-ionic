@@ -24,7 +24,12 @@
 <hr>
 <ion-item href="#" ng-repeat="game in claimedGames | limitTo:3">
     <div class="res">
-        {{ game.challenger_score }}:{{ game.challenged_score }}, Time - {{ game.time }}
+        <span>
+            {{ game.challenger.name }} - {{ game.challenged.name }}, {{ game.challenger_score }}:{{ game.challenged_score }}
+        </span>
+        <span style="float: right">
+            Time - {{ game.time }}
+        </span>
     </div>
 </ion-item>
 </ion-content>
