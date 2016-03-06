@@ -20,6 +20,7 @@ angular.module('ionicApp', ['ionic', 'restangular', 'ui.router'])
     });
   }).config(function (RestangularProvider, $stateProvider, $urlRouterProvider) {
     RestangularProvider.setBaseUrl('http://table-tennis-api.herokuapp.com/v1');
+    RestangularProvider.addResponseInterceptor(function (response) { return response.data; });
 
     $stateProvider
       .state('main', {
