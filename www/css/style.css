@@ -96,7 +96,7 @@ p {
     font-size: 50px;
     text-align: center;
     color: royalblue;
-        
+
 }
 
 .list{
@@ -154,4 +154,6 @@ p {
     font-size: 10px;
 }
 
-
+.unclaimed .ion-autocomplete {
+    display: none;
+}

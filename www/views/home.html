@@ -4,67 +4,27 @@
 <h1 class="claims">Unclaimed</h1>
 </header>
 <hr>
-                <ion-list show-delete="false" can-swipe="true">
-                    <ion-item href="#">
-                        <div class="res">
-                        Score - 10:11,
-                         vs CinChi,
-                        Time - 12:54
-                        <ion-option-button class="button-balanced icon ion-checkmark-round"></ion-option-button>
-                        </div>
-                    </ion-item>
-                    <ion-item href="#">
-                        <div class="res">
-                        Score - 2:11,
-                         vs Kikilis,
-                        Time - 14:23
-
-
-
-            <ion-option-button class="button-light icon ion-checkmark-round"></ion-option-button>
-            <ion-option-button class="button-assertive icon 
-                                                  ion-close-circled"></ion-option-button>
+<ion-list class='unclaimed' show-delete="false" can-swipe="true">
+    <ion-item ng-repeat="game in unclaimedGames | limitTo:3">
+        <div class="res">
+            <span>
+                {{ game.challenger_score }}:{{ game.challenged_score }}
+            </span>
+            <span style="float: right">
+                Time - {{ game.time }}
+            </span>
+            <ion-option-button class="button-balanced icon ion-checkmark-round" ng-click="selectChallengedUser(game)"></ion-option-button>
         </div>
     </ion-item>
-
-
-                        <ion-option-button class="button-balanced icon ion-checkmark-round"></ion-option-button>
-                        </div>
-                    </ion-item>
-                    <ion-item href="#">
-                        <div class="res">
-                        Score - 11:6,
-                         vs Jaunis,
-                        Time - 19:30
-
-                        <ion-option-button class="button-balanced icon ion-checkmark-round"></ion-option-button>
-                        </div>
-                    </ion-item>
-
-                </ion-list>
+    <input ion-autocomplete="" type="text" readonly="readonly" autocomplete="off" external-model="users" item-value-key="id" item-view-value-key="name" ng-model="activeGame.challenged_id" items-method="getUsers(query)" class="ion-autocomplete" placeholder="User name" manage-externally="true" max-selected-items="1" select-items-label="Choose your opponent" ng-model-options="{ debounce: 300 }" items-clicked-method="claimGame(callback)"/>
+</ion-list>
 <header>
 <h1 class="claims">Last Claimed Games</h1>
 </header>
 <hr>
-<ion-item href="#">
-                        <div class="res">
-                        Score - 1:11,
-                         vs Nick,
-                        Time - 18:12
-                        </div>
-                    </ion-item>
-<ion-item href="#">
-                        <div class="res">
-                        Score - 11:2,
-                         vs John,
-                        Time - 19:10
-                        </div>
-                    </ion-item>
-<ion-item href="#">
-                        <div class="res">
-                        Score - 5:11,
-                         vs Nickol,
-                        Time - 12:30
-                        </div>
-                    </ion-item>
+<ion-item href="#" ng-repeat="game in claimedGames | limitTo:3">
+    <div class="res">
+        {{ game.challenger_score }}:{{ game.challenged_score }}, Time - {{ game.time }}
+    </div>
+</ion-item>
 </ion-content>
