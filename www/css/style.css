@@ -94,7 +94,7 @@ p {
     font-size: 50px;
     text-align: center;
     color: royalblue;
-        
+
 }
 .list{
     padding-left: 10px;
@@ -113,4 +113,8 @@ p {
 .claims{
     font-size: 48px;
     padding-top: 10px;
+}
+
+.unclaimed .ion-autocomplete {
+    display: none;
 }
