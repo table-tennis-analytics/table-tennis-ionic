@@ -832,6 +832,10 @@ p {
 =======
 }
 
+.unclaimed .item-content, .claimed .item-content {
+     padding-right: 16px;
+}
+
 .unclaimed .ion-autocomplete {
     display: none;
 }
