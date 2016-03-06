@@ -1,5 +1,680 @@
 body {
     background-color: aliceblue;
+<<<<<<< HEAD
+}
+
+.player_one {
+    float: left;
+    padding-left: 24px;
+}
+
+.player_two {
+    float: right;
+    padding-right: 24px;
+}
+
+h1 {
+    font-size: 128px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 350px;
+    text-align: center;
+}
+.heder {
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-bottom: 3px;
+    padding-top: 21px;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.members {
+    padding-left: 14px;
+    padding-right: 14px;
+    line-height: 160%;
+    font-size: 15px;
+}
+
+.membersTitle {
+    font-family: sans-serif;
+    font-size: 24px;
+    padding-left: 14px;
+    padding-top: 11px;
+}
+
+.mail {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.infot {
+    padding-left: 14px;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-top: 11px;
+}
+
+.info {
+    padding-left: 14px;
+    font-size: 15px;
+    padding-right: 14px;
+    line-height: 125%;
+}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+  </head>
+  <body ng-app="ionicApp" ng-controller="MainCtrl">
+
+<h2 class="heder">about us</h2>
+      
+      <h4 class="infot">Our Project</h4>
+      <p class="info">Our idea is Smart Ping Pong Table. It's table tennis device, that counts results, it also provides a possibility to perform game analysis and also present the game statistics. You can learn from your mistakes, for instance your bad performance when shooting from the left table side. </p>
+          
+          
+      <h4 class="infot">Location</h4>
+      <p class="info">This project is located in <a href="http://www.santakosslenis.lt/en/"> Santaka Valley, Barsausko str. 59, Kaunas, Lithuania. </a> </h6>
+    
+    
+      <h4 class="membersTitle">Team</h4>
+    
+    <div class="members">
+          Markas Černiauskas: <span class="mail">MarkasCerniauskas@gmail.com</span><br>
+          Arnas Puidokas: <span class="mail">puidokasarnas11@gmail.com</span><br>
+          Simonas Gildutis: <span class="mail">simonasgildutis@gmail.com></span><br>
+          Danius Kalvaitis: <span class="mail">Danius.Kalvaitis@gmail.com</span><br>
+          Vilius Kraujutis: <span class="mail">Vilius.K@gmail.com</span><br>
+          Gvidas Sidlauskas: <span class="mail">gvidasdj2@yahoo.co.uk></span><br>
+    </div>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<div class="tabs tabs-icon-top">
+    
+  <a class="tab-item"  href="index.html">
+    <i class="icon ion-home"></i>
+    Home
+  </a>
+    
+  <a class="tab-item" href="play.html">
+    <i class="icon ion-play"></i>
+    Play
+  </a>
+    
+  <a class="tab-item" href="settings.html">
+    <i class="icon ion-gear-a"></i>
+    Settings
+  </a>
+    
+  <a class="tab-item" href="stats.html">
+     <i class="icon ion-stats-bars"></i>
+     Statistics
+  </a>
+    
+</div>
+      
+  </body>
+</html>
+[2016-03-05 19:04:41] Arnas: <div class="list">
+  <label class="item item-input">
+    <input type="text" placeholder="Player1 Name">
+  </label>
+  <label class="item item-input">
+    <input type="text" placeholder="Player2 Name">
+  </label>
+    <label class="item item-input">
+    <input type="text" placeholder="Table Name">
+  </label>
+</div>
+          setting inputs
+[2016-03-05 19:06:24] Arnas: siusk css
+[2016-03-05 19:07:11] Arnas: helllo
+[2016-03-05 19:08:01] markis: body {
+    background-color: aliceblue;
+}
+
+.player_one {
+    float: left;
+    padding-left: 24px;
+}
+
+.player_two {
+    float: right;
+    padding-right: 24px;
+}
+
+h1 {
+    font-size: 114px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 31px;
+}
+
+h5 {
+    font-size: 24px;
+    margin-top: 290px;
+    text-align: center;
+}
+
+.heder {
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-bottom: 3px;
+    padding-top: 21px;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.members {
+    padding-left: 14px;
+    padding-right: 14px;
+    line-height: 160%;
+    font-size: 15px;
+}
+
+.membersTitle {
+    font-family: sans-serif;
+    font-size: 24px;
+    padding-left: 14px;
+    padding-top: 11px;
+}
+
+.mail {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.infot {
+    padding-left: 14px;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-top: 11px;
+}
+
+.info {
+    padding-left: 14px;
+    font-size: 15px;
+    padding-right: 14px;
+    line-height: 125%;
+    color: #010507;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #207269;
+}
+
+.scores {
+    padding-top: 31px;
+}
+
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+[2016-03-05 19:17:30] markis: <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
+  </head>
+  <body ng-app="ionicApp" ng-controller="MainCtrl">
+
+<h2 class="heder">smart table</h2>
+      
+      <h4 class="infot"><b>Our Project</b></h4>
+      <p class="info">We present a device which makes your <b>ping-pong table smart.</b> From now on score as well as other statistics will be calculated and provided automatically. All you need to do, is attaching our gadget to your table!</p>
+          
+          
+      <h4 class="infot"><b>Location</b></h4>
+      <p class="info">This project started in <a href="http://www.santakosslenis.lt/en/"> Santaka Valley, Kaunas, Lithuania. </a> </h6>
+    
+    
+      <h4 class="membersTitle"><b>Team</b></h4>
+    
+    <div class="members"><p>
+          Markas Černiauskas: <span class="mail">MarkasCerniauskas@gmail.com</span><br>
+          Arnas Puidokas: <span class="mail">puidokasarnas11@gmail.com</span><br>
+          Simonas Gildutis: <span class="mail">simonasgildutis@gmail.com</span><br>
+          Danius Kalvaitis: <span class="mail">Danius.Kalvaitis@gmail.com</span><br>
+          Vilius Kraujutis: <span class="mail">Vilius.K@gmail.com</span><br>
+        Gvidas Sidlauskas: <span class="mail">gvidasdj2@yahoo.co.uk</span><br></p>
+    </div>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<div class="tabs tabs-icon-top">
+    
+  <a class="tab-item"  href="index.html">
+    <i class="icon ion-home"></i>
+    Home
+  </a>
+    
+  <a class="tab-item" href="play.html">
+    <i class="icon ion-play"></i>
+    Play
+  </a>
+    
+  <a class="tab-item" href="settings.html">
+    <i class="icon ion-gear-a"></i>
+    Settings
+  </a>
+    
+  <a class="tab-item" href="stats.html">
+     <i class="icon ion-stats-bars"></i>
+     Statistics
+  </a>
+    
+</div>
+      
+  </body>
+</html>
+[2016-03-05 19:42:01] Arnas: uzsiimk su api
+[2016-03-05 19:46:32] Arnas: statistics: total games; total points scored; total points lost; total wins; total losses; cofficient
+[2016-03-05 19:55:08] Arnas: https://github.com/table-tennis-analytics/table-tennis-api
+[2016-03-05 20:20:11] Arnas: https://www.youtube.com/watch?v=M3MnOZmGu3k
+[2016-03-05 20:22:28] Arnas: pazek
+[13:38:47] Arnas: <ui-view></ui-view>
+    <div class="tabs tabs-icon-top">
+      <a class="tab-item"  ui-sref="main.home">
+        <i class="icon ion-home"></i>
+        Home
+      </a>
+      <a class="tab-item" ui-sref="main.play">
+        <i class="icon ion-information-circled"></i>
+        Info
+      </a>
+      <a class="tab-item" ui-sref="main.settings">
+        <i class="icon ion-gear-a"></i>
+        Settings
+      </a>
+        <a class="tab-item" ui-sref="main.stats">
+        <i class="icon ion-stats-bars"></i>
+            Statistics
+        </a>
+    </div>
+
+
+
+<header>
+<h1 class="claims">Unclaimed</h1>
+</header>
+<hr>
+
+                <ion-list show-delete="false" can-swipe="true">
+                    <ion-item href="#">
+                        <div class="res">
+                        Score - 10:11,
+                         vs CinChi,
+                        Time - 12:54
+                        <ion-option-button class="button-light icon ion-checkmark-round"></ion-option-button>
+                        <ion-option-button class="button-assertive icon ion-close-circled"></ion-option-button>
+                        </div>
+                    </ion-item>
+                    <ion-item href="#">
+                        <div class="res">
+                        Score - 2:11,
+                         vs Kikilis,
+                        Time - 14:23
+                        
+                        <ion-option-button class="button-light icon ion-checkmark-round"></ion-option-button>
+                        <ion-option-button class="button-assertive icon 
+                                                  ion-close-circled"></ion-option-button>
+                        </div>
+                    </ion-item>
+                    <ion-item href="#">
+                        <div class="res">
+                        Score - 11:6,
+                         vs Jaunis,
+                        Time - 19:30
+                        
+                        <ion-option-button class="button-light icon ion-checkmark-round"></ion-option-button>
+                        <ion-option-button class="button-assertive icon 
+                                                  ion-close-circled"></ion-option-button>
+                        </div>
+                    </ion-item>
+                    
+                </ion-list>
+<header>
+<h1 class="claims">Last Claimed Games</h1>
+</header>
+<hr>
+<ion-item href="#">
+                        <div class="res">
+                        Score - 1:11,
+                         vs Nick,
+                        Time - 18:12
+                        </div>
+                    </ion-item>
+<ion-item href="#">
+                        <div class="res">
+                        Score - 11:2,
+                         vs John,
+                        Time - 19:10
+                        </div>
+                    </ion-item>
+<ion-item href="#">
+                        <div class="res">
+                        Score - 5:11,
+                         vs Nickol,
+                        Time - 12:30
+                        </div>
+                    </ion-item>
+[13:38:55] Arnas: <ui-view></ui-view>
+    <div class="tabs tabs-icon-top">
+      <a class="tab-item"  ui-sref="main.home">
+        <i class="icon ion-home"></i>
+        Home
+      </a>
+      <a class="tab-item" ui-sref="main.play">
+        <i class="icon ion-information-circled"></i>
+        Info
+      </a>
+      <a class="tab-item" ui-sref="main.settings">
+        <i class="icon ion-gear-a"></i>
+        Settings
+      </a>
+        <a class="tab-item" ui-sref="main.stats">
+        <i class="icon ion-stats-bars"></i>
+            Statistics
+        </a>
+    </div>
+
+
+
+<header>
+<h1 class="claims">Unclaimed</h1>
+</header>
+<hr>
+
+                <ion-list show-delete="false" can-swipe="true">
+                    <ion-item href="#">
+                        <div class="res">
+                        Score - 10:11,
+                         vs CinChi,
+                        Time - 12:54
+                        <ion-option-button class="button-light icon ion-checkmark-round"></ion-option-button>
+                        <ion-option-button class="button-assertive icon ion-close-circled"></ion-option-button>
+                        </div>
+                    </ion-item>
+                    <ion-item href="#">
+                        <div class="res">
+                        Score - 2:11,
+                         vs Kikilis,
+                        Time - 14:23
+                        
+                        <ion-option-button class="button-light icon ion-checkmark-round"></ion-option-button>
+                        <ion-option-button class="button-assertive icon 
+                                                  ion-close-circled"></ion-option-button>
+                        </div>
+                    </ion-item>
+                    <ion-item href="#">
+                        <div class="res">
+                        Score - 11:6,
+                         vs Jaunis,
+                        Time - 19:30
+                        
+                        <ion-option-button class="button-light icon ion-checkmark-round"></ion-option-button>
+                        <ion-option-button class="button-assertive icon 
+                                                  ion-close-circled"></ion-option-button>
+                        </div>
+                    </ion-item>
+                    
+                </ion-list>
+<header>
+<h1 class="claims">Last Claimed Games</h1>
+</header>
+<hr>
+<ion-item href="#">
+                        <div class="res">
+                        Score - 1:11,
+                         vs Nick,
+                        Time - 18:12
+                        </div>
+                    </ion-item>
+<ion-item href="#">
+                        <div class="res">
+                        Score - 11:2,
+                         vs John,
+                        Time - 19:10
+                        </div>
+                    </ion-item>
+<ion-item href="#">
+                        <div class="res">
+                        Score - 5:11,
+                         vs Nickol,
+                        Time - 12:30
+                        </div>
+                    </ion-item>
+[13:43:25] markis: http://pastebin.com/XMkvSqqP
+[13:45:05] markis: body {
+    background-color: #EEE0E5;
+=======
+>>>>>>> 97939aeab310141558abb1b8509dae77df37b1c4
 }
 
 .player_one {
@@ -152,6 +827,9 @@ p {
 
 .avg {
     font-size: 10px;
+<<<<<<< HEAD
+}
+=======
 }
 
 .unclaimed .item-content, .claimed .item-content {
@@ -161,3 +839,4 @@ p {
 .unclaimed .ion-autocomplete {
     display: none;
 }
+>>>>>>> 97939aeab310141558abb1b8509dae77df37b1c4
