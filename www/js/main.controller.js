@@ -10,7 +10,7 @@ angular.module('ionicApp')
 
       if (userId) {
         Restangular.one('users', userId).get().then(function (user) {
-          $scope.user = user;
+          $scope.currentUser = user;
         });
       } else $scope.openModal();
     });
@@ -32,7 +32,7 @@ angular.module('ionicApp')
         $window.localStorage.user_id = user.id;
 
         $scope.closeModal();
-        $scope.user = user;
+        $scope.currentUser = user;
       });
     };
     // Execute action on hide modal

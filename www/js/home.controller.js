@@ -17,7 +17,7 @@ angular.module('ionicApp')
 
       Restangular.one('games', game.id).patch({
         game: {
-          challenger_id: $scope.user.id,
+          challenger_id: $scope.currentUser.id,
           challenged_id: callback.item.id,
         }
       }).then(function () {
