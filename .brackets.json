@@ -5,6 +5,8 @@
         "C:/Users/Jolanta/pong/www/lib/ionic/js/angular-ui/angular-ui-router.min.js",
         "C:/Users/Jolanta/pong/www/js/controller.js",
         "C:/Users/Jolanta/pong/hooks/after_prepare/010_add_platform_class.js",
-        "jquery.js"
+        "jquery.js",
+        "C:/Users/Jolanta/pong/platforms/android/assets/www/lib/lodash/vendor/underscore/test/cross-document.js",
+        "C:/Users/Jolanta/pong/platforms/android/assets/www/lib/lodash/vendor/underscore/test/functions.js"
     ]
 }

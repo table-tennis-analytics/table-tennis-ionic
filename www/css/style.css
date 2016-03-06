@@ -1,5 +1,5 @@
 body {
-    background-color: #EEE0E5;
+    background-color: aliceblue;
 }
 
 .player_one {
@@ -89,14 +89,84 @@ p {
     text-align: center;
     padding-top: 12px;
     padding-bottom: 5px;
+    font-family: "Times New Roman", Times, serif;
 }
+
 .statis {
     font-size: 50px;
     text-align: center;
     color: royalblue;
         
 }
+
 .list{
     padding-left: 10px;
     padding-right: 10px;
 }
+.claims {
+    text-align: center;
+    font-size: 48px;
+}
+.card {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.res {
+    word-wrap: break-word;
+}
+
+.statsText {
+    font-size: 21px;
+    font-family: sans-serif;
+    padding-bottom: 14px;
+}
+
+.elo {
+    padding-top: 14px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.leaderboard {
+    margin-left: 14px;
+    float: left;
+}
+
+.user {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.wl {
+    float: right;
+    padding-right: 21px;
+}
+
+.w {
+    font-size: 41px;
+}
+
+.l {
+    font-size: 41px;
+}
+
+.avg {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
