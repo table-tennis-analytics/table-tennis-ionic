@@ -1,7 +1,7 @@
 <div class="elo">
-    <p class="statsText" ng-show="currentUser.position">Your rating is {{ currentUser.coefficient }}</p>
-    <p class="statsText" ng-show="currentUser.position">You're #{{ currentUser.position }} rated player worldwide.</p>
-    <p class="statsText" ng-hide="currentUser.position">You're not rated yet, you still need to play at least {{ 6 - currentUser.total_games }} games.</p>
+    <p class="statsText" ng-show="currentUser.coefficient > 0">Your rating is {{ currentUser.coefficient }}.</p>
+    <p class="statsText" ng-show="currentUser.coefficient > 0">You're #{{ currentUser.position + 1 }} rated player worldwide.</p>
+    <p class="statsText" ng-show="currentUser.coefficient <= 0">You're not rated yet, you still need to play at least {{ 6 - currentUser.total_games }} games.</p>
 </div>
 <ol class="leaderboard">
     <li ng-repeat="user in users | limitTo:7"><p class="user">{{ $index + 1 }}. {{ user.name }}. {{ user.coefficient }}</p></li>
