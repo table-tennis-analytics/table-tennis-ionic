@@ -100,3 +100,17 @@ p {
     padding-left: 10px;
     padding-right: 10px;
 }
+.claims {
+    text-align: center;
+}
+.card {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.res {
+    word-wrap: break-word;
+}
+.claims{
+    font-size: 48px;
+    padding-top: 10px;
+}
